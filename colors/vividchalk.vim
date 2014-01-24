@@ -111,6 +111,7 @@ highlight StatusLineNC  guifg=#444444 guibg=#aaaaaa gui=none ctermfg=Black cterm
 highlight Ignore        ctermfg=Black
 highlight WildMenu      guifg=Black   guibg=#ffff00 gui=bold ctermfg=Black ctermbg=Yellow cterm=bold
 highlight Cursor        guifg=Black guibg=White ctermfg=Black ctermbg=White
+highlight CursorLine    term=none cterm=none ctermbg=235 guibg=#333333
 call s:hibg("ColorColumn","#333333","DarkGrey",81)
 call s:hibg("CursorLine","#333333","DarkGrey",81)
 call s:hibg("CursorColumn","#333333","DarkGrey",81)
